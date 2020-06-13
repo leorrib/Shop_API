@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "appmon": "nodemon server.js",
+    "app": "cross-env NODE_ENV=database node server.js",
     "production": "cross-env NODE_ENV=prod node server.js",
     "test": "cross-env NODE_ENV=test node server.js",
     "unit-tests": "jest test/unit/*",
     "unit-coverage": "jest --coverage test/unit/*",
-    "integration-tests": "cross-env NODE_ENV=test jest --watchAll --detectOpenHandles test/integration/manager/*"
+    "integration-tests": "cross-env NODE_ENV=test jest test/integration/*"
   },
   "author": "Leonardo Ribeiro",
   "license": "ISC",
