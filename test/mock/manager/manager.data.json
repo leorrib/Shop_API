@@ -1,0 +1,18 @@
+[
+    {
+        "_id": "5ee1735a73281b3f0c157c4e",
+        "name": "Leonardo",
+        "email": "leo@email.com",
+        "password": "$2b$04$sDPzyflsL2XSCZ9rWFyInebGnzlkGlhVuO3MoM8DPBX77R65WPW2e",
+        "admission_date": "2020-06-10T23:57:14.341+00:00",
+        "__v":"0"
+    },
+    {
+        "_id": "5ee18d8603250e24e488b6f8",
+        "name": "Rodrigo",
+        "email": "rodrigo@email.com",
+        "password": "$2b$04$8F4nsEAs3j5bswDTQhDVI.Ae//5dQ/h86ESjppjCl0XjiA00p860y",
+        "admission_date": "2020-06-11T01:48:54.867+00:00",
+        "__v": "0"
+    }
+]
